@@ -1,0 +1,19 @@
+<html lang="en">
+<head></head>
+<title>Speak something program</title>
+<style>
+    body{
+    background:lightblue;
+}
+.voice{
+justift-content:center;
+}
+</style>
+<body>
+<div class="voice">
+<h2>Voice Program</h2>
+<input type="text" id="text" placeholder="Type Something...."/>
+     <button onclick="speechSynthesis.speak(new SpeechSynthesisUtterance(text.value))">voice</button>
+</div>
+</body>
+</html>
